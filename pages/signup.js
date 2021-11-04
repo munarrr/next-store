@@ -158,7 +158,7 @@ function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
 
-export default function Example() {
+export default function SignUp() {
     const [open, setOpen] = useState(false)
 
     return (
@@ -176,7 +176,7 @@ export default function Example() {
                                 <div className="absolute inset-0 overflow-hidden">
                                     <Image
                                         src={Banner}
-                                    alt="banner"/>
+                                        alt="banner" />
                                 </div>
 
                             </div>
@@ -271,6 +271,6 @@ export default function Example() {
                 </main>
             </div>
         </MainLayout>
-      
+
     )
 }
